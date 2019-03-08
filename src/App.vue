@@ -1,16 +1,12 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
 
 <style lang="less">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -26,4 +22,34 @@
     }
   }
 }
+body{
+  margin:0;
+}
+/* 响应式设置 */
+
+/* @media only screen and (max-width: 767px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991x) {
+  html {
+    font-size: 19.4063px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  html {
+    font-size: 22.5px;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1920px) {
+  html {
+    font-size: 22.5px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 30px;
+  }
+} */
 </style>
